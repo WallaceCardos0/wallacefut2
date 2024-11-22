@@ -1,0 +1,57 @@
+body {
+    color: white;
+    background: rgb(0, 0, 0);
+    margin: 0%;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+heater {
+    border-bottom: solid 0px white;
+    padding: 20px;
+    font-size: 32px;
+}
+
+.categoria {
+    background: #022f9b;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img{
+    height: 200px;
+
+}
+
+.imagens-jogos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.jogos-importantes{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.imagens-jogos img {
+opacity: 0.5;
+
+}
+.imagens-jogos img:hover{
+    opacity:1.0;
+    border: 1px solid yellow;
+}
